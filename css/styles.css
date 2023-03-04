@@ -12,7 +12,7 @@
 body {
   font-family: "Roboto", sans-serif;
   font-style: normal;
-  color: var(--color-grey);
+  color: var(-- --color-slate);
 }
 
 .header {
@@ -27,7 +27,7 @@ body {
 }
 
 .logotype {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.33;
@@ -46,6 +46,7 @@ body {
 
 .link {
   text-decoration: none;
+  list-style: none;
 }
 
 .header-link {
@@ -60,9 +61,10 @@ body {
 .header-link:focus {
   color: var(--color-ocean);
 }
-
-.mail,
-.tell {
+.address {
+  font-style: normal;
+}
+.mail {
   font-style: normal;
   font-weight: 400;
   color: var(--color-slate);
@@ -79,6 +81,7 @@ body {
   color: var(--color-white);
 }
 .studio-section-one-btn {
+  font-family: "Roboto", sans-serif;
   background: var(--color-iris);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -102,6 +105,7 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  color: var(--color-grey);
 }
 .studio-section-text {
   font-weight: 400;
@@ -117,6 +121,7 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  color: var(--color-grey);
 }
 
 .section-our-team {
@@ -144,7 +149,11 @@ body {
 
 /*Page Portfolio*/
 .portfolio-btn {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  font-size: 16px;
   width: 116px;
   height: 48px;
   background: var(--color-cloud);
