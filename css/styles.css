@@ -12,7 +12,8 @@
 body {
   font-family: "Roboto", sans-serif;
   font-style: normal;
-  color: var(-- --color-slate);
+  /*color: var(-- --color-slate);*/
+  color: #434455;
 }
 .header {
 }
@@ -21,7 +22,7 @@ body {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.33;
+  line-height: 1.17 /*1.33;*/
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--color-iris);
@@ -106,6 +107,7 @@ body {
   color: var(--color-slate);
 }
 .section-titles {
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
