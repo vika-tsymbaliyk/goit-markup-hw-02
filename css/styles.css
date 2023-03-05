@@ -12,19 +12,10 @@
 body {
   font-family: "Roboto", sans-serif;
   font-style: normal;
-  /*color: var(-- --color-slate);*/
-  color: #434455;
+  color: var(-- --color-slate);
 }
 
 .header {
-  /*position: absolute;
-  width: 1440px;
-  height: 72px;
-  left: 0px;
-  top: 0px;
-  */
-  display: flex;
-  flex-direction: row;
 }
 
 .logotype {
@@ -34,7 +25,6 @@ body {
   line-height: 1.33;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  margin: 24px 76px 24px 156px;
   color: var(--color-iris);
 }
 .logotype span {
@@ -42,12 +32,10 @@ body {
 }
 .list {
   list-style-type: none;
-  display: flex;
 }
 
 .link {
   text-decoration: none;
-  list-style: none;
 }
 
 .header-link {
@@ -55,7 +43,6 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  margin: 40px 24px 40px 0;
   color: var(--color-grey);
 }
 .header-link:hover,
@@ -65,10 +52,15 @@ body {
 .address {
   font-style: normal;
 }
-.mail {
-  font-style: normal;
-  font-weight: 400;
+.address-link {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--color-slate);
+}
+.address-link:hover,
+.address-link:focus {
+  color: var(--color-ocean);
 }
 /* main content page Studio*/
 .studio-section-one {
@@ -76,6 +68,7 @@ body {
 }
 .studio-section-one-title {
   font-size: 56px;
+  font-weight: 700;
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
@@ -89,7 +82,6 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  align-items: center;
   letter-spacing: 0.04em;
   color: var(--color-white);
   cursor: pointer;
@@ -108,7 +100,6 @@ body {
   color: var(--color-grey);
 }
 .studio-section-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -120,7 +111,6 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   color: var(--color-grey);
 }
 
@@ -140,7 +130,6 @@ body {
 }
 
 .footer-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -154,8 +143,6 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  width: 116px;
-  height: 48px;
   background: var(--color-cloud);
   border: 1px solid var(--color-cornflower);
   border-radius: 4px;
@@ -167,7 +154,6 @@ body {
   color: var(--color-white);
 }
 .portfolio-section-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
